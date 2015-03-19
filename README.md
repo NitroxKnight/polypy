@@ -11,17 +11,17 @@ To install place the polypy.py file in the \Python34\Lib folder or past the file
 
 ## How to use the module
 
-Every polinomial is defind as: a0 + a1*x + a2*x^2 + a3*x^3 + a4*x^4 .... an*x^n
+Every polinomial is defind as: `a0 + a1*x + a2*x^2 + a3*x^3 + a4*x^4 .... an*x^n`
 
-to create a polinomial, foo = polypy.poly([a0,a1,a2,a3,a4,..an])
+to create a polinomial, `foo = polypy.poly([a0,a1,a2,a3,a4,..an])`
 
-to create a polinomial from points, foo = polypy.ptopoly(x,y) 
+to create a polinomial from points, `foo = polypy.ptopoly(x,y)`
 
-to calculate a point, value = foo(x)  (x can also be a list or a range)
+to calculate a point, `value = foo(x)  #(x can also be a list or a range)`
 
-to differentiate, dif = polypy.D(foo)
+to differentiate, `dif = polypy.D(foo)`
 
-to Integrate, inte = polypy.I(foo)
+to Integrate, `inte = polypy.I(foo)`
 
-to find zeros, zerolist = polypy.fzeros(foo,startx=0,acc=10**-10)
+to find zeros, `zerolist = polypy.fzeros(foo,startx=0,acc=10**-10)`
 
