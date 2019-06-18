@@ -4,7 +4,7 @@
 # https://docs.python.org/3/reference/datamodel.html#customizing-class-creation (type updatae)
 # error raiseing: https://docs.python.org/3/reference/simple_stmts.html#raise
 # make equallength more effective
-
+# test
 '''
 
 # polypy
